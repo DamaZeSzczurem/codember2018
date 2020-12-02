@@ -1,0 +1,283 @@
+body{
+	padding:  0px;
+	margin: 0px;
+}
+h1, h2, h3, h4 {
+	font-family: 'Radley', sans-serif;
+	font-weight: normal;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+p, a, span, ul, li{
+	font-family: 'Space Mono', sans-serif;
+}
+
+
+
+/*top*/
+
+	.top{
+	 	height: 90vh;
+  		background-image: url('img/banner.jpg');
+  		background-size: cover;
+  		text-align: center;
+  		position: relative;
+  		margin-bottom: 50px;
+  		display: flex;
+  		justify-content: center;
+  		align-items: center;
+  		flex-direction: column;
+  		background-attachment: fixed;
+  		}
+
+  	.top p{
+  		position: absolute;
+  		font-size: 10px;
+  		padding: 0px;
+  		margin: 0px;
+		left: -3%;
+		bottom: 50%;
+		color: white;
+		transform: rotate(-90deg);
+
+
+	}
+
+
+	.menu{
+		padding: 0px;
+		margin: 0px;
+		text-decoration: none;
+		position: fixed;
+		top: 0;
+		z-index: 1;
+
+	}
+	.menu li{
+		display: inline-block;
+		list-style: none;
+	}
+
+	.menu a{
+		text-decoration: none;
+		color: black;
+		font-size: 16px;
+		padding: 10px;
+		transition: all 0.7s ease-in-out;
+	}
+
+	.menu a:hover { 
+		color: #E75D24;
+	}
+
+
+	.top-text{
+		color: white;
+	}
+
+	.top-text h1{
+		font-size: 200px;
+		padding-top: 50px;
+		padding-bottom: 10px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+
+	}
+
+	.top-text h2{
+		font-size: 18px;
+		text-align: center;
+		font-family: 'Space Mono', sans-serif;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	/* socialmedia section */
+
+	.socialmedia ul{
+		padding-left: 0;
+		margin-left:0;
+		left:0;
+		top:50%;
+		list-style: none;
+		position: fixed;
+	}
+
+	.socialmedia img{
+		width:30%;
+		padding-left: 0%;
+		margin-left: 0%;
+	
+	}
+
+
+
+/* content section */
+
+	.content{
+		height: 70vh;
+		padding-top: 5%;
+	}
+
+	.content h3{
+		font-size: 40px;
+		margin-left: 0%;
+		padding-left: 0%;
+		margin-top:0;
+		padding-top: 0;
+		margin-bottom: 10px;
+		
+	}
+
+	.content p{
+		font-size: 14px;
+	}
+
+	.content li{
+		font-size: 15px;
+		padding-top: 2%; 
+		padding-left: 0%;
+	}
+
+	.content ul{
+		padding-left: 0%;
+	}
+
+	.content a{
+		font-size: 15px;
+		color: #f04d23;
+	}
+
+	.content a:hover{
+
+	}
+
+	.content span{
+		color: white;
+		background-color: #f04d23;
+	}
+
+
+	.author{
+		position: relative;
+		align-items: right;
+
+	}
+
+	.author img{
+		padding: 0%;
+		float: right;
+		margin: 0%;
+
+
+	}
+
+	.author::before{
+		content: url('img/cross.svg');
+		position: absolute;
+		left: -20%;
+		top: -15%;
+		z-index: -1;
+		width: 45%;
+
+	}
+
+	.content ul{
+		list-style: none;
+	}
+
+	.content li{
+		padding-top: 2vh;
+		padding-bottom: 1vh;
+		border-bottom: solid;
+		border-color: #f2f2f2;
+	}
+/* projects section */
+	.projects{
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	.projects h3{
+		font-size: 40px;
+		margin-bottom: 5px;
+	}
+
+	.projects h4{
+		font-size: 24px;
+		color: #f04d23;
+	}
+
+	.projects p{
+		font-size: 14px;
+	}
+
+/* instagram section */
+	.instagram h3{
+		font-size: 40px;
+	}
+	#instagram-small-link{
+		font-size: 14px;
+	}
+
+	.instagram a{
+		font-size: 40px;
+		text-decoration: none;
+		color: #f04d23;
+	}
+
+/* contact section */
+
+	.contact {
+		height: 60vh;
+		padding: 10vh;
+	}
+	.contact h1{
+		font-size: 100px;
+		text-align: center;
+		position: relative;
+	}
+
+
+	.contact h1::after{
+		content: url('img/line.svg');
+		position: absolute;
+		width: 80%;
+		z-index: -1;
+		left: 10%;
+		top:50%;
+
+
+	}
+
+	.contact p{
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.contact .text{
+		width: 33%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+/* footer section */
+	.footer p{
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.footer{
+		background-color: #f2f2f2;
+		padding: 30px;
+		
+	}
+
+	.footer a{
+		font-size: 14px;
+		text-decoration: none;
+		
+	}
